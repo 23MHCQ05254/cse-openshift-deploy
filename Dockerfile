@@ -6,6 +6,7 @@ WORKDIR /app
 
 # Step 3: Copy the Spring Boot JAR file into the container
 COPY target/Cse-Deploy-Openshift-0.0.1-SNAPSHOT.jar /app/cse.jar
+
 # Step 4: Expose the port your application runs on
 EXPOSE 8085
 
